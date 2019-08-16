@@ -90,6 +90,8 @@ slug: 在获取所有新闻时返回
 #### request
 ```
 type: News
+count: 返回的文章数 默认为 10 ，-1 为返回所有文章
+offset: 分页数，默认为 0
 ```
 //注意大小写
 #### response
